@@ -2189,12 +2189,12 @@ fig, ax = plt.subplots()
 # ax.plot(generations_cfg3, teamfight_cfg3, color='black')
 
 # PS-300__MC-0.7__MG-1000
-ax.plot(generations_cfg4, hardengage_cfg4, color='grey')
-ax.plot(generations_cfg4, pusher_cfg4, color='red')
-ax.plot(generations_cfg4, teamfight_cfg4, color='black')
+# ax.plot(generations_cfg4, hardengage_cfg4, color='grey')
+# ax.plot(generations_cfg4, pusher_cfg4, color='red')
+# ax.plot(generations_cfg4, teamfight_cfg4, color='black')
 
 ax.set(xlabel=r"""$Gerac \c\~ao$""", ylabel='Fitness')
 ax.grid()
 
-fig.savefig("cfg4.pdf")
+fig.savefig("cfg.pdf")
 plt.show()
