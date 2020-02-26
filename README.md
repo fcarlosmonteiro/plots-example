@@ -1,6 +1,9 @@
-# plots-example
-Plots example in matplotlib
+# 📈 Ploting graphs with matplotlib
 
-Line plot
+## Bar plot
 
-Bar blot
+Run the command `py barplot.py`.
+
+## Line plot
+
+Run the command `py lineplot.py`.
