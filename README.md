@@ -4,3 +4,5 @@ Plots example in matplotlib
 Line plot
 
 Bar blot
+
+Bar blot with legends
