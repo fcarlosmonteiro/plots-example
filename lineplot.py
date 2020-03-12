@@ -14,5 +14,5 @@ plt.legend()
 ax.set(xlabel=r"""$Gerac \c\~ao$""", ylabel='Fitness')
 plt.grid()
 
-fig.savefig("plot.pdf")
+fig.savefig("plot.png")
 plt.show()
