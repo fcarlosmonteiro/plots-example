@@ -11,14 +11,11 @@ import matplotlib.pyplot as plt
 
 def create_sample_data():
     """Create a sample DataFrame with sales data."""
-    # Create date range for the last 30 days
     dates = pd.date_range(end='today', periods=30)
     
-    # Create random sales data with an upward trend
-    np.random.seed(42)  # For reproducibility
+    np.random.seed(42)  
     sales = np.random.randint(100, 200, size=30) + np.linspace(0, 50, 30)
     
-    # Create DataFrame
     df = pd.DataFrame({
         'Date': dates,
         'Sales': sales
